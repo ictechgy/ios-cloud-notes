@@ -31,7 +31,7 @@ class MemoItemTableViewCell: UITableViewCell {
 
 //MARK:- Set View Components
 extension MemoItemTableViewCell {
-        private func setUpInnerStackView() {
+    private func setUpInnerStackView() {
         innerStackView.axis = .horizontal
         innerStackView.addArrangedSubview(lastModifiedLabel)
         innerStackView.addArrangedSubview(summaryLabel)
